@@ -1,0 +1,4 @@
+The structure of the indole-TEMPO complex is optimized at M062X/6-311g** level in CCl4 (carbon tetrachloride) phase (Polarizable Continuum Model (PCM) was applied to mimic the solvent environment) using Gaussian16 (Frisch, M. J. et al. Gaussian 16, revision C.01)
+The "tempoindole-gjf" is the input file (gjf format), the tempoindole-output is the output file, the "tempoindoleopted" is the obtained optimized structure of the indole-TEMPO complex which would be used as the initial structure in the following QM/MM MD simulation.
+
+

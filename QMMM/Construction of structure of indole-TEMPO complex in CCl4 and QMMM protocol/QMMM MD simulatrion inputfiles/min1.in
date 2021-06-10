@@ -1,0 +1,15 @@
+mise the whole system
+&cntrl
+  imin=1,
+  maxcyc=40000,
+  ncyc=20000,
+  ntpr=500,
+  ntwr=500,
+  ntb=1,
+  ntr=1,
+  cut=12.0
+  restraintmask='@1-45',
+  restraint_wt=100.0,
+ &end
+
+

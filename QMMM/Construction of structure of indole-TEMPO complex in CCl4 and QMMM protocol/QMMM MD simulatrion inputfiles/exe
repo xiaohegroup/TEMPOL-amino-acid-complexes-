@@ -1,0 +1,5 @@
+ mpirun -np 20 sander.MPI -O -i min1.in -p p.top -c p.crd -o min1.out -r  min1.rst -ref pcrd.crd < /dev/null
+ mpirun -np 20 sander.MPI -O -i heat.in -p p.top  -c min1.rst -o heat.out -x heat.crd -r heat.rst -ref min1.rst < /dev/null
+ mpirun -np 20 sander.MPI -O -i mdc.in -p p.top  -c heat.rst -o md1.out -x md1.crd -r md1.rst -ref heat.rst < /dev/null
+ 
+  sander -O -i qmmd.in -p p.top -c md1.rst -o mdqm.out -x mdqm.crd -r mdqm.rst < /dev/null
